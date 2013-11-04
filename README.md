@@ -1,4 +1,4 @@
 puppet-yumconfig
-================
+=====================
 
-Puppet module for managing yum configurations
+A Puppet module that manages yum configurations
