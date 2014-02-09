@@ -9,6 +9,10 @@ class yumconfig::params {
         $yum_protectbase_package = "yum-plugin-protectbase"
       }
     }
+    'fedora': {
+        $yum_priorities_package = "yum-plugin-priorities"
+        $yum_protectbase_package = "yum-plugin-protectbase"
+    }
     default: {
       fail("Unsupported platform: ${::osfamily}/${::operatingsystem}")
     }
