@@ -1,0 +1,14 @@
+{
+  "name": "desalvo-yumconfig",
+  "version": "0.1.2",
+  "author": "desalvo",
+  "summary": "A Puppet module that manages yum configurations",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/desalvo/puppet-yumconfig",
+  "description": "Puppet module for yum configurations management",
+  "issues_url": "https://github.com/desalvo/puppet-yumconfig/issues",
+  "project_page": "https://github.com/desalvo/puppet-yumconfig",
+  "dependencies": [
+  
+  ]
+}
