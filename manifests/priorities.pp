@@ -1,4 +1,4 @@
-# Class: yumconfig::yum-priorities
+# Class: yumconfig::priorities
 #
 #  This class manages yum priorities
 #
@@ -6,9 +6,9 @@
 #  An OS that uses yum as its primary package manager
 #
 # Sample Usage:
-#  include yumconfig::yum-priorities
+#  include yumconfig::priorities
 #
-class yumconfig::yum-priorities inherits yumconfig::params {
+class yumconfig::priorities inherits yumconfig::params {
 
     package {$yumconfig::params::yum_priorities_package: ensure => latest }
 
