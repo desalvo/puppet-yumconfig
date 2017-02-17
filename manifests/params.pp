@@ -1,7 +1,7 @@
 class yumconfig::params {
   case $::operatingsystem {
     'centos','scientific','redhat': {
-      if ($::operatingsystemmajrelease < 6) {
+      if ($::operatingsystemmajrelease < '6') {
         $yum_priorities_package = "yum-priorities"
         $yum_protectbase_package = "yum-protectbase"
       } else {
